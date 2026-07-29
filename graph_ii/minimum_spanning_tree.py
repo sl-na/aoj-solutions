@@ -5,7 +5,7 @@ class UnionFind:
     def __init__(self, n):
         self.n = n
         self.parents = [None for _ in range(n)]
-        self.sizes = [1] * n
+        self.sizes = [1 for _ in range(n)]
 
     def find(self, x):
         if self.parents[x] is None:

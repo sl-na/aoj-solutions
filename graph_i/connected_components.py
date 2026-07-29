@@ -2,10 +2,10 @@ from sys import stdin
 
 
 class UnionFind:
-    def __init__(self, n: int):
+    def __init__(self, n):
         self.n = n
-        self.parents: list[int | None] = [None for _ in range(n)]
-        self.sizes = [1] * n
+        self.parents = [None for _ in range(n)]
+        self.sizes = [1 for _ in range(n)]
 
     def find(self, x):
         if self.parents[x] is None:
