@@ -4,28 +4,27 @@ from sys import stdin
 class UnionFind:
     def __init__(self, n):
         self.n = n
-        self.parents = [None for _ in range(n)]
+        self.parents = list(range(n))
         self.sizes = [1 for _ in range(n)]
 
     def find(self, x):
-        if self.parents[x] is None:
+        if self.parents[x] == x:
             return x
-        else:
-            self.parents[x] = self.find(self.parents[x])
-            return self.parents[x]
+        self.parents[x] = self.find(self.parents[x])
+        return self.parents[x]
 
-    def union(self, s, t):
-        s = self.find(s)
-        t = self.find(t)
-        if s == t:
+    def is_same(self, x, y):
+        return self.find(x) == self.find(y)
+
+    def union(self, x, y):
+        x = self.find(x)
+        y = self.find(y)
+        if x == y:
             return
-        if self.sizes[s] < self.sizes[t]:
-            s, t = t, s
-        self.parents[t] = s
-        self.sizes[s] += self.sizes[t]
-
-    def is_same(self, s, t):
-        return self.find(s) == self.find(t)
+        if self.sizes[x] < self.sizes[y]:
+            x, y = y, x
+        self.parents[y] = x
+        self.sizes[x] += self.sizes[y]
 
 
 def main():
