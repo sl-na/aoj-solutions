@@ -10,13 +10,11 @@ k = 0
 
 def check(p):
     i = 0
-    global k
     for j in range(k):
         s = 0
         while s + T[i] <= p:
             s += T[i]
             i += 1
-            global n
             if i == n:
                 return n
     return i
@@ -28,7 +26,6 @@ def solve():
     while (right - left) > 1:
         mid = (left + right) // 2
         v = check(mid)
-        global n
         if v >= n:
             right = mid
         else:
@@ -41,7 +38,6 @@ def main():
     global k
     n, k = list(map(int, sys.stdin.readline().split()))
     line = list(map(int, sys.stdin.read().splitlines()))
-    global T
     for i in line:
         T.append(i)
     answer = solve()

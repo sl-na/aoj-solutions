@@ -8,21 +8,20 @@ G: list[int] = []
 
 
 def insertion_sort(A, n, g):
+    global cnt
     for i in range(g, n):
         v = A[i]
         j = i - g
         while j >= 0 and A[j] > v:
             A[j + g] = A[j]
             j -= g
-            global cnt
             cnt += 1
         A[j + g] = v
 
 
 def shell_sort(A, n):
-    global G
     h = 1
-    while h < n:
+    while h <= n:
         G.append(h)
         h = 3 * h + 1
     for i in range(len(G) - 1, -1, -1):
@@ -31,20 +30,21 @@ def shell_sort(A, n):
 
 def main():
     n = int(input())
-    A = [0] * 1000000
+    A = [0] * n
+    it = map(int, sys.stdin.read().split())
     for i in range(n):
-        A[i] = int(sys.stdin.readline())
+        A[i] = next(it)
     shell_sort(A, n)
     print(len(G))
+    g_answer = ""
     for i in range(len(G) - 1, -1, -1):
-        print(G[i], end="")
+        g_answer += str(G[i])
         if i != 0:
-            print(end=" ")
+            g_answer += " "
+    print(g_answer, end="")
     print()
-    global cnt
     print(cnt)
-    for i in range(n):
-        print(A[i])
+    print("\n".join(map(str, A)))
 
 
 if __name__ == "__main__":

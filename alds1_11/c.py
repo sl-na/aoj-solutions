@@ -22,7 +22,7 @@ def bfs(graph, start):
 
 def main():
     row = int(stdin.readline())
-    inputs = list(map(list[int], list(map(int, line.split()) for line in stdin)))
+    inputs = list(map(list[int], [map(int, line.split()) for line in stdin]))
     if row != len(inputs):
         raise ValueError("invalid input")
     graph = list(map(list[int], [[i - 1 for i in j[2:]] for j in inputs]))

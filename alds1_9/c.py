@@ -53,7 +53,7 @@ def main():
     for line in inputs:
         input = line.split()
         if input[0] == "end":
-            quit()
+            sys.exit()
         elif input[0] == "insert":
             heap_size += 1
             insert(heap_size, queues, int(input[1]))
