@@ -1,3 +1,57 @@
-# プログラミングコンテスト攻略のためのアルゴリズムとデータ構造 – 解答集
-本リポジトリは、渡部有隆著『プログラミングコンテスト攻略のためのアルゴリズムとデータ構造』に掲載されている問題を解いたソースコードをまとめたものです。
+# AIZU ONLINE JUDGE Courses – Python 解答集
+本リポジトリは、AIZU ONLINE JUDGEで出題されている問題をPython(PyPy 3.10)で解いたソースコードをまとめたものです。  
 コミットメッセージはTernary Bonsai 27Bで生成しています。
+## ALDS1 アルゴリズムとデータ構造入門
+- ALDS1_1 入門
+    - A Insertion Sort
+    - D Maximum Profit
+- ALDS1_2 初等的ソート
+    - A Bubble Sort
+    - B Selection Sort
+    - C Stable Sort
+    - D Shell Sort
+- ALDS1_3 基本データ構造
+    - A Stack
+    - B Queue
+    - C Doubly Linked List
+    - D Area on a Cross-Section Diagram
+- ALDS1_4 探索
+    - A Linear Search
+    - B Binary Search
+    - C Dictionary
+    - D Allocation
+- ALDS1_5 分割統治法
+    - A Exhaustive Search
+    - B Merge Sort
+    - C Koch Curve
+    - D The Number of Inversions
+- ALDS1_6 ソート
+    - A Counting Sort
+    - B Partition
+    - C Quick Sort
+- ALDS1_7 木構造
+    - A Rooted Trees
+    - B Binary Trees
+    - C Tree Walk
+    - D Reconstruction of a Tree
+- ALDS1_8 二分探索木
+    - A Binary Search Tree I
+    - B Binary Search Tree II
+    - C Binary Search Tree III
+- ALDS1_9 ヒープ
+    - A Complete Binary Tree
+    - B Maximum Heap
+    - C Priority Queue
+- ALDS1_10 動的計画法
+    - A Fibonacci Number
+    - B Matrix Chain Multiplication
+    - C Longest Common Subsequence
+- ALDS1_11 グラフI
+    - A Graph
+    - B Depth First Search
+    - C Breadth First Search
+    - D Connected Components
+- ALDS1_12 グラフII
+    - A Minimum Spanning Tree
+    - B Single Source Shortest Path I
+    - C Single Source Shortest Path II
