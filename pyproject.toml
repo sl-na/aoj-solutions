@@ -1,7 +1,7 @@
 [project]
-name = "algorithm-for-programmers"
+name = "aoj-solutions"
 version = "0.1.0"
-description = "『プログラミングコンテスト攻略のためのアルゴリズムとデータ構造』の演習問題を解くためのリポジトリ"
+description = "AIZU ONLINE JUDGE CoursesのPython解答集"
 readme = "README.md"
 requires-python = "==3.10.*"
 dependencies = []
