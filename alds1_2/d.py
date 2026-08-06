@@ -3,12 +3,8 @@
 
 import sys
 
-cnt = 0
-G: list[int] = []
 
-
-def insertion_sort(A, n, g):
-    global cnt
+def insertion_sort(A, n, g, cnt):
     for i in range(g, n):
         v = A[i]
         j = i - g
@@ -17,34 +13,33 @@ def insertion_sort(A, n, g):
             j -= g
             cnt += 1
         A[j + g] = v
+    return cnt
 
 
-def shell_sort(A, n):
+def shell_sort(A, n, G):
+    cnt = 0
     h = 1
     while h <= n:
         G.append(h)
         h = 3 * h + 1
     for i in range(len(G) - 1, -1, -1):
-        insertion_sort(A, n, G[i])
+        cnt = insertion_sort(A, n, G[i], cnt)
+    return cnt
 
 
 def main():
-    n = int(input())
-    A = [0] * n
     it = map(int, sys.stdin.read().split())
-    for i in range(n):
-        A[i] = next(it)
-    shell_sort(A, n)
-    print(len(G))
-    g_answer = ""
-    for i in range(len(G) - 1, -1, -1):
-        g_answer += str(G[i])
-        if i != 0:
-            g_answer += " "
-    print(g_answer, end="")
-    print()
-    print(cnt)
-    print("\n".join(map(str, A)))
+    n = next(it)
+    A = [next(it) for _ in range(n)]
+    G = []
+    cnt = shell_sort(A, n, G)
+    answer = []
+    answer.append(str(len(G)))
+    g_answer = " ".join(str(G[i]) for i in range(len(G) - 1, -1, -1))
+    answer.append(g_answer)
+    answer.append(str(cnt))
+    answer.extend(map(str, A))
+    print("\n".join(answer))
 
 
 if __name__ == "__main__":
