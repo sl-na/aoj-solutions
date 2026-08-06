@@ -3,6 +3,6 @@ name = "aoj-solutions"
 version = "0.1.0"
 description = "AIZU ONLINE JUDGE CoursesのPython解答集"
 readme = "README.md"
-requires-python = "==3.10.*"
+requires-python = "==3.9.*"
 dependencies = []
 classifiers = ["Programming Language :: Python :: Implementation :: PyPy"]

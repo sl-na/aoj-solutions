@@ -1,5 +1,5 @@
 # AIZU ONLINE JUDGE Courses – Python 解答集
-本リポジトリは、AIZU ONLINE JUDGEで出題されている問題をPython(PyPy 3.10)で解いたソースコードをまとめたものです。  
+本リポジトリは、AIZU ONLINE JUDGEで出題されている問題をPython(PyPy 3.9)で解いたソースコードをまとめたものです。  
 コミットメッセージはTernary Bonsai 27Bで生成しています。
 ## ALDS1 アルゴリズムとデータ構造入門
 - ALDS1_1 入門
