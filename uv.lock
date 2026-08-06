@@ -3,6 +3,6 @@ revision = 3
 requires-python = "==3.10.*"
 
 [[package]]
-name = "algorithm-for-programmers"
+name = "aoj-solutions"
 version = "0.1.0"
 source = { virtual = "." }
