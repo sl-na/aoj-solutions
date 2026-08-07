@@ -57,3 +57,5 @@
     - C Single Source Shortest Path II
 - DSL_1 集合
     - A Disjoint Set: Union Find Tree
+- DSL_2 区間クエリ
+    - C Ranged Search (kD Tree)
