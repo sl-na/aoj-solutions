@@ -55,10 +55,12 @@
     - A Minimum Spanning Tree
     - B Single Source Shortest Path I
     - C Single Source Shortest Path II
+## DSL データの集合とクエリ処理
 - DSL_1 集合
     - A Disjoint Set: Union Find Tree
 - DSL_2 区間クエリ
     - C Ranged Search (kD Tree)
+## GRL グラフ
 - GRL_1 最短経路
     - C All Pairs Shortest Path
 - GRL_3 連結成分
