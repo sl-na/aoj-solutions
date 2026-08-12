@@ -29,10 +29,10 @@ def build_kd_tree(points, depth=0):
 def range_search(node, rect, found, depth=0):
     if not node:
         return
-    x, y, idx = node.point
+    x, y, i = node.point
     sx, tx, sy, ty = rect
     if sx <= x <= tx and sy <= y <= ty:
-        found.append(idx)
+        found.append(i)
     if node.axis == 0:
         if sx <= x:
             range_search(node.left, rect, found, depth + 1)
@@ -49,19 +49,18 @@ def main():
     it = map(int, sys.stdin.read().split())
     n = next(it)
     points = []
-    for idx in range(n):
+    for i in range(n):
         x, y = next(it), next(it)
-        points.append((x, y, idx))
+        points.append((x, y, i))
     tree = build_kd_tree(points)
     answer = []
-    q = next(it)
-    for _ in range(q):
-        sx, tx, sy, ty = next(it), next(it), next(it), next(it)
+    _p = next(it)
+    for sx, tx, sy, ty in zip(it, it, it, it):
         found = []
         range_search(tree, (sx, tx, sy, ty), found)
         found.sort()
-        for idx in found:
-            answer.append(f"{idx}")
+        for i in found:
+            answer.append(f"{i}")
         answer.append("")
     print("\n".join(answer))
 
