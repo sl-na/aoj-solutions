@@ -67,3 +67,5 @@
     - A Articulation Points
 - GRL_4 サイクル
     - B Topological Sort
+- GRL_5 木
+    - A Diameter of a Tree
