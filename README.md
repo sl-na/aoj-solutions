@@ -72,5 +72,7 @@
 - GRL_5 木
     - A Diameter of a Tree
 ## CGL 計算幾何学
+- CGL_1 点とベクトル
+    - A Projection
 - CGL_2 線分と直線
     - A Parallel/Orthogonal
