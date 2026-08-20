@@ -1,7 +1,10 @@
-# AIZU ONLINE JUDGE Courses – Python 解答集
-本リポジトリは、AIZU ONLINE JUDGEで出題されている問題をPython(PyPy 3.9)で解いたソースコードをまとめたものです。  
+# AIZU ONLINE JUDGE Courses - Python 解答集
+
+本リポジトリは、AIZU ONLINE JUDGEで出題されている問題をPython(ローカル環境はPyPy 3.9)で解いたソースコードをまとめたものです。  
 コミットメッセージはTernary Bonsai 27Bで生成しています。
+
 ## ALDS1 アルゴリズムとデータ構造入門
+
 - ALDS1_1 入門
     - A Insertion Sort
     - D Maximum Profit
@@ -55,23 +58,29 @@
     - A Minimum Spanning Tree
     - B Single Source Shortest Path I
     - C Single Source Shortest Path II
+
 ## DSL データの集合とクエリ処理
+
 - DSL_1 集合
     - A Disjoint Set: Union Find Tree
 - DSL_2 区間クエリ
     - C Ranged Search (kD Tree)
+
 ## GRL グラフ
+
 - GRL_1 最短経路
     - C All Pairs Shortest Path
 - GRL_2 全域木
-    - A Minimum Spanning Tree
+    - A Minimum Spanning Tree (896件の解答中最速 / 2026年8月20日時点)
 - GRL_3 連結成分
     - A Articulation Points
 - GRL_4 サイクル
-    - B Topological Sort
+    - B Topological Sort (399件の解答中最速タイ / 2026年8月20日時点)
 - GRL_5 木
-    - A Diameter of a Tree
+    - A Diameter of a Tree (211件の解答中最速 / 2026年8月20日時点)
+
 ## CGL 計算幾何学
+
 - CGL_1 点とベクトル
     - A Projection
     - B Reflection
