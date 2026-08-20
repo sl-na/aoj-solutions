@@ -77,3 +77,4 @@
     - B Reflection
 - CGL_2 線分と直線
     - A Parallel/Orthogonal
+    - D Distance
