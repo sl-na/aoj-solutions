@@ -84,6 +84,7 @@
 - CGL_1 点とベクトル
     - A Projection
     - B Reflection
+    - C Counter-Clockwise
 - CGL_2 線分と直線
     - A Parallel/Orthogonal
     - D Distance
