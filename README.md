@@ -87,4 +87,5 @@
     - C Counter-Clockwise
 - CGL_2 線分と直線
     - A Parallel/Orthogonal
+    - B Intersection
     - D Distance
