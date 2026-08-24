@@ -90,3 +90,5 @@
     - B Intersection
     - C Cross Point
     - D Distance
+- CGL_7 円
+    - D Cross Points of a Circle and a Line
