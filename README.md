@@ -5,43 +5,43 @@
 
 ## ALDS1 アルゴリズムとデータ構造入門
 
-- ALDS1_1 入門
+- ALDS1_01 入門
     - A Insertion Sort
     - D Maximum Profit
-- ALDS1_2 初等的ソート
+- ALDS1_02 初等的ソート
     - A Bubble Sort
     - B Selection Sort
     - C Stable Sort
     - D Shell Sort
-- ALDS1_3 基本データ構造
+- ALDS1_03 基本データ構造
     - A Stack
     - B Queue
     - C Doubly Linked List
     - D Area on a Cross-Section Diagram
-- ALDS1_4 探索
+- ALDS1_04 探索
     - A Linear Search
     - B Binary Search
     - C Dictionary
     - D Allocation
-- ALDS1_5 分割統治法
+- ALDS1_05 分割統治法
     - A Exhaustive Search
     - B Merge Sort
     - C Koch Curve
     - D The Number of Inversions
-- ALDS1_6 ソート
+- ALDS1_06 ソート
     - A Counting Sort
     - B Partition
     - C Quick Sort
-- ALDS1_7 木構造
+- ALDS1_07 木構造
     - A Rooted Trees
     - B Binary Trees
     - C Tree Walk
     - D Reconstruction of a Tree
-- ALDS1_8 二分探索木
+- ALDS1_08 二分探索木
     - A Binary Search Tree I
     - B Binary Search Tree II
     - C Binary Search Tree III
-- ALDS1_9 ヒープ
+- ALDS1_09 ヒープ
     - A Complete Binary Tree
     - B Maximum Heap
     - C Priority Queue
