@@ -92,6 +92,8 @@
     - D Distance
 - CGL_3 多角形
     - C Polygon-Point Containment
+- CGL_4 凸多角形
+    - A Convex Hull
 - CGL_7 円
     - D Cross Points of a Circle and a Line
     - E Cross Points of Circles
