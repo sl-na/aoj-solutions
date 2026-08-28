@@ -94,6 +94,8 @@
     - C Polygon-Point Containment
 - CGL_4 凸多角形
     - A Convex Hull
+- CGL_6 線分集合
+    - A Segment Intersections: Manhattan Geometry
 - CGL_7 円
     - D Cross Points of a Circle and a Line
     - E Cross Points of Circles
