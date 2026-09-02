@@ -1,11 +1,9 @@
 # Coin Changing Problem
 
 import sys
-from functools import lru_cache
 from math import inf
 
 
-@lru_cache(maxsize=10**6)
 def min_coins(n, coins):
     dp = [inf] * (n + 1)
     dp[0] = 0
@@ -19,7 +17,7 @@ def min_coins(n, coins):
 def main():
     it = map(int, sys.stdin.read().split())
     n, _ = next(it), next(it)
-    coins = frozenset(i for i in it)
+    coins = [i for i in it]
     print(min_coins(n, coins))
 
 
