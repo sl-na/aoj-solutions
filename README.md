@@ -106,3 +106,5 @@
     - A Coin Changing Problem
     - B 0-1 Knapsack Problem
     - D Longest Increasing Subsequence (619件の解答中最速タイ / 2026年9月07日時点)
+- DPL_3 パターン
+    - A Largest Square
