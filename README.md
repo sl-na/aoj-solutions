@@ -111,3 +111,8 @@
 - CGL_7 円
     - D Cross Points of a Circle and a Line
     - E Cross Points of Circles
+
+## NTL 整数論
+
+- NTL_1 整数論
+    - B Power
