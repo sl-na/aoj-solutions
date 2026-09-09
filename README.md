@@ -7,6 +7,7 @@
 
 - ALDS1_01 入門
     - A Insertion Sort
+    - B Greatest Common Divisor
     - C Prime Numbers
     - D Maximum Profit
 - ALDS1_02 初等的ソート
