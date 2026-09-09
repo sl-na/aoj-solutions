@@ -68,6 +68,16 @@
 - DSL_2 区間クエリ
     - C Ranged Search (kD Tree)
 
+## DPL 組み合わせ最適化
+
+- DPL_1 組み合わせ
+    - A Coin Changing Problem
+    - B 0-1 Knapsack Problem
+    - D Longest Increasing Subsequence (619件の解答中最速タイ / 2026年9月07日時点)
+- DPL_3 パターン
+    - A Largest Square
+    - B Largest Rectangle
+
 ## GRL グラフ
 
 - GRL_1 最短経路
@@ -101,13 +111,3 @@
 - CGL_7 円
     - D Cross Points of a Circle and a Line
     - E Cross Points of Circles
-
-## DPL 組み合わせ最適化
-
-- DPL_1 組み合わせ
-    - A Coin Changing Problem
-    - B 0-1 Knapsack Problem
-    - D Longest Increasing Subsequence (619件の解答中最速タイ / 2026年9月07日時点)
-- DPL_3 パターン
-    - A Largest Square
-    - B Largest Rectangle
