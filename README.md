@@ -60,6 +60,8 @@
     - A Minimum Spanning Tree
     - B Single Source Shortest Path I
     - C Single Source Shortest Path II
+- ALDS1_13 ヒューリスティック探索
+    - A 8 Queens Problem
 
 ## DSL データの集合とクエリ処理
 
