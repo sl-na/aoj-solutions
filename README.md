@@ -62,6 +62,7 @@
     - C Single Source Shortest Path II
 - ALDS1_13 ヒューリスティック探索
     - A 8 Queens Problem
+    - B 8 Puzzle
 
 ## DSL データの集合とクエリ処理
 
