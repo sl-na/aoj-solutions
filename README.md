@@ -63,6 +63,7 @@
 - ALDS1_13 ヒューリスティック探索
     - A 8 Queens Problem
     - B 8 Puzzle
+    - C 15 Puzzle
 
 ## DSL データの集合とクエリ処理
 
